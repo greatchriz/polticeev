@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/reconsxo/repositories/polticeev/
+    - /bin/cp -R polticventures.com $DEPLOYPATH
